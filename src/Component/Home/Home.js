@@ -8,7 +8,7 @@ const Home = () => {
   const [allMovies, setAllMovies] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:3001/allMovie`)
+    fetch(`https://salty-plains-34844.herokuapp.com/allMovie`)
       .then((res) => res.json())
       .then((data) => {
         setAllMovies(data);
@@ -23,7 +23,6 @@ const Home = () => {
           <MovieList movie={movie} key={movie.id}></MovieList>
         ))}
       </div>
-      <p>home</p>
     </div>
   );
 };

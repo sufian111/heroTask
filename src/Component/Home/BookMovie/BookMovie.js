@@ -12,7 +12,7 @@ const BookMovie = () => {
   const [movieWithTime, setMovieWithTime] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:3001/movieWithTime`, {
+    fetch(`https://salty-plains-34844.herokuapp.com/movieWithTime`, {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(movieName),

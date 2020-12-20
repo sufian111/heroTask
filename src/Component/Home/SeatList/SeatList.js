@@ -32,7 +32,7 @@ const SeatList = () => {
                 <div className="bgForSeat text-center">
                   <ul>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
@@ -40,139 +40,63 @@ const SeatList = () => {
                     </li>
 
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
-                        <AirlineSeatReclineExtraIcon style={styleOff} />
-                      ) : (
-                        <AirlineSeatReclineExtraIcon style={styleOn} />
-                      )}
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-md-3">
-                <div className="bgForSeat text-center">
-                  <ul>
-                    <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
-                        <AirlineSeatReclineExtraIcon style={styleOff} />
-                      ) : (
-                        <AirlineSeatReclineExtraIcon style={styleOn} />
-                      )}
-                    </li>
-                    <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
-                        <AirlineSeatReclineExtraIcon style={styleOff} />
-                      ) : (
-                        <AirlineSeatReclineExtraIcon style={styleOn} />
-                      )}
-                    </li>
-                    <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
-                        <AirlineSeatReclineExtraIcon style={styleOff} />
-                      ) : (
-                        <AirlineSeatReclineExtraIcon style={styleOn} />
-                      )}
-                    </li>
-                    <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
-                        <AirlineSeatReclineExtraIcon style={styleOff} />
-                      ) : (
-                        <AirlineSeatReclineExtraIcon style={styleOn} />
-                      )}
-                    </li>
-                    <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
-                        <AirlineSeatReclineExtraIcon style={styleOff} />
-                      ) : (
-                        <AirlineSeatReclineExtraIcon style={styleOn} />
-                      )}
-                    </li>
-                    <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
-                        <AirlineSeatReclineExtraIcon style={styleOff} />
-                      ) : (
-                        <AirlineSeatReclineExtraIcon style={styleOn} />
-                      )}
-                    </li>
-                    <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
-                        <AirlineSeatReclineExtraIcon style={styleOff} />
-                      ) : (
-                        <AirlineSeatReclineExtraIcon style={styleOn} />
-                      )}
-                    </li>
-                    <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
-                        <AirlineSeatReclineExtraIcon style={styleOff} />
-                      ) : (
-                        <AirlineSeatReclineExtraIcon style={styleOn} />
-                      )}
-                    </li>
-                    <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
-                        <AirlineSeatReclineExtraIcon style={styleOff} />
-                      ) : (
-                        <AirlineSeatReclineExtraIcon style={styleOn} />
-                      )}
-                    </li>
-                    <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
@@ -185,70 +109,70 @@ const SeatList = () => {
                 <div className="bgForSeat text-center">
                   <ul>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
@@ -261,70 +185,146 @@ const SeatList = () => {
                 <div className="bgForSeat text-center">
                   <ul>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
                       )}
                     </li>
                     <li onClick={handleOrder} className="mt-3">
-                      {loggedInUser.email ? (
+                      {loggedInUser.ids ? (
+                        <AirlineSeatReclineExtraIcon style={styleOff} />
+                      ) : (
+                        <AirlineSeatReclineExtraIcon style={styleOn} />
+                      )}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="bgForSeat text-center">
+                  <ul>
+                    <li onClick={handleOrder} className="mt-3">
+                      {loggedInUser.ids ? (
+                        <AirlineSeatReclineExtraIcon style={styleOff} />
+                      ) : (
+                        <AirlineSeatReclineExtraIcon style={styleOn} />
+                      )}
+                    </li>
+                    <li onClick={handleOrder} className="mt-3">
+                      {loggedInUser.ids ? (
+                        <AirlineSeatReclineExtraIcon style={styleOff} />
+                      ) : (
+                        <AirlineSeatReclineExtraIcon style={styleOn} />
+                      )}
+                    </li>
+                    <li onClick={handleOrder} className="mt-3">
+                      {loggedInUser.ids ? (
+                        <AirlineSeatReclineExtraIcon style={styleOff} />
+                      ) : (
+                        <AirlineSeatReclineExtraIcon style={styleOn} />
+                      )}
+                    </li>
+                    <li onClick={handleOrder} className="mt-3">
+                      {loggedInUser.ids ? (
+                        <AirlineSeatReclineExtraIcon style={styleOff} />
+                      ) : (
+                        <AirlineSeatReclineExtraIcon style={styleOn} />
+                      )}
+                    </li>
+                    <li onClick={handleOrder} className="mt-3">
+                      {loggedInUser.ids ? (
+                        <AirlineSeatReclineExtraIcon style={styleOff} />
+                      ) : (
+                        <AirlineSeatReclineExtraIcon style={styleOn} />
+                      )}
+                    </li>
+                    <li onClick={handleOrder} className="mt-3">
+                      {loggedInUser.ids ? (
+                        <AirlineSeatReclineExtraIcon style={styleOff} />
+                      ) : (
+                        <AirlineSeatReclineExtraIcon style={styleOn} />
+                      )}
+                    </li>
+                    <li onClick={handleOrder} className="mt-3">
+                      {loggedInUser.ids ? (
+                        <AirlineSeatReclineExtraIcon style={styleOff} />
+                      ) : (
+                        <AirlineSeatReclineExtraIcon style={styleOn} />
+                      )}
+                    </li>
+                    <li onClick={handleOrder} className="mt-3">
+                      {loggedInUser.ids ? (
+                        <AirlineSeatReclineExtraIcon style={styleOff} />
+                      ) : (
+                        <AirlineSeatReclineExtraIcon style={styleOn} />
+                      )}
+                    </li>
+                    <li onClick={handleOrder} className="mt-3">
+                      {loggedInUser.ids ? (
+                        <AirlineSeatReclineExtraIcon style={styleOff} />
+                      ) : (
+                        <AirlineSeatReclineExtraIcon style={styleOn} />
+                      )}
+                    </li>
+                    <li onClick={handleOrder} className="mt-3">
+                      {loggedInUser.ids ? (
                         <AirlineSeatReclineExtraIcon style={styleOff} />
                       ) : (
                         <AirlineSeatReclineExtraIcon style={styleOn} />
