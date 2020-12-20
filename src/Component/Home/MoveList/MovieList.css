@@ -1,0 +1,26 @@
+.Card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: visibility 0s ease 0s, opacity 0.3s linear 0s;
+  opacity: 1;
+  visibility: visible;
+}
+.moveName {
+  margin: 0px 0px 4px;
+  word-break: break-word;
+  color: rgb(34, 34, 34);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.33;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -moz-box-orient: vertical;
+}
+
+.movieLink:hover {
+  text-decoration: none;
+}
