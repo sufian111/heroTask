@@ -37,13 +37,13 @@ function App() {
             <BookMovie></BookMovie>
           </PrivateRoute>
 
-          <Route path="/movie/:id">
+          <PrivateRoute path="/movie/:id">
             <SeatList></SeatList>
-          </Route>
+          </PrivateRoute>
 
-          <Route path="*">
+          <PrivateRoute path="*">
             <h1>Page not found</h1>
-          </Route>
+          </PrivateRoute>
         </Switch>
       </Router>
     </UserContext.Provider>

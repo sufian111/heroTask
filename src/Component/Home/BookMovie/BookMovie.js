@@ -1,40 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 import NavBarSection from "../NavBarSection/NavBarSection";
 import "./BookMovieList.css";
 import MovieWithTime from "./MovieWithTime";
 const BookMovie = () => {
   const { id } = useParams();
+  console.log(id);
 
-  const movieWithTime = [
-    {
-      id: 1,
-      name: "Tenet",
-      startTime: "1.00pm",
-      endTime: "4.00pm",
-      date: "12-01-2021",
-      category: "comedy",
-      timeId: "tenet1",
-    },
-    {
-      id: 2,
-      name: "Tenet",
-      startTime: "5.00pm",
-      endTime: "8.00pm",
-      date: "12-01-2021",
-      category: "comedy",
-      timeId: "tenet2",
-    },
-    {
-      id: 3,
-      name: "Tenet",
-      startTime: "9.00pm",
-      endTime: "12.00pm",
-      date: "12-01-2021",
-      category: "comedy",
-      timeId: "tenet3",
-    },
-  ];
+  const movieName = { name: id };
+  const [movieWithTime, setMovieWithTime] = useState([]);
+
+  useEffect(() => {
+    fetch(`http://localhost:3001/movieWithTime`, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(movieName),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        setMovieWithTime(data);
+      });
+  }, []);
 
   return (
     <>
