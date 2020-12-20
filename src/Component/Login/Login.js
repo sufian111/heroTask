@@ -21,8 +21,6 @@ if (firebase.apps.length === 0) {
 }
 
 const Login = () => {
-  document.title = "Volunteer Network | Authentication";
-
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
 
   const history = useHistory();
